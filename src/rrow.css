@@ -1,0 +1,37 @@
+.row_poster{
+    object-fit: contain;
+    width: 100%;
+    max-height: 250px;
+    margin-right: 0.9%;
+    transition: transform 600ms;
+}
+.row_poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+.colo{
+    color: aqua;
+    transition: transform 450ms;
+}
+.colo:hover{
+    opacity: 0.9;
+    color: rgb(10, 194, 148);
+}
+.row_posters{
+    display: flex;  
+    overflow-y: hidden;
+    padding: 20px;
+    max-width: 100%;
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row{
+    max-width: 99% !important;
+    margin-left: 1%;
+}
+
+.dd{
+    height: 248px;
+    width: 165px;
+}

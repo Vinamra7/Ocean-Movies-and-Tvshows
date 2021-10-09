@@ -1,0 +1,86 @@
+.headline{
+    color:whitesmoke ;
+    margin-left: 50px;
+    font-size: 1.011rem;
+    width: 60rem;
+}
+
+.des{
+    margin-left: 47px;
+    color: aquamarine;
+}
+.rr{
+    max-width: 20px;
+    margin-left: 5px !important;
+    opacity: 100% !important;
+}
+.rv{
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: aqua;
+    color: blue;
+    border-radius: 2px;
+    margin-right: 80px;
+}
+.rat{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+.poster{
+    max-width: 165px;
+    max-height: 250px;
+    margin-top: 75px;
+    margin-left: 80px;
+}
+
+.info_title{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 80px;
+}
+.poster_back{
+    color: white;
+    object-fit: scale-down;
+    height: 448px;
+    margin-bottom: 1.5%;
+
+}
+.bottomm{
+    height: 15.6rem;
+    background-image: linear-gradient(
+        180deg,transparent,
+        rgba(34,0,59,0.7),
+        #1b0a45
+    );
+    margin-top: -243px;
+}
+
+.info_button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    margin-left: 200px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: -4.7%;
+    padding-top: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    width: 250px;
+    opacity: 0.7;
+}
+.info_button:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.18s;
+}
+.yt{
+    margin-left: 63%;
+    margin-top: -40%;
+    margin-bottom: 5%;
+}

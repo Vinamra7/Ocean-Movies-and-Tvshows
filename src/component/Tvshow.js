@@ -7,7 +7,7 @@ const url2 = "https://api.themoviedb.org/3/discover/tv?api_key=17c423324c9d705b0
 const url3 = "https://api.themoviedb.org/3/discover/tv?api_key=17c423324c9d705b0a6f986149de595d&language=en-US&sort_by=popularity.desc&page=3&include_null_first_air_dates=false&with_watch_monetization_types=flatrate";
 const url4 = "https://api.themoviedb.org/3/discover/tv?api_key=17c423324c9d705b0a6f986149de595d&language=en-US&sort_by=popularity.desc&page=4&include_null_first_air_dates=false&with_watch_monetization_types=flatrate";
 
-const base_url = "https://images.tmdb.org/t/p/original/";
+const base_url = "https://images.tmdb.org/t/p/w200/";
 function Tvshow() {
     const [movies, setMovies] = useState([]);
     const [movies2, setMovies2] = useState([]);

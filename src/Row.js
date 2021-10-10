@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from './axios'
 import "./rrow.css"
 import { Link } from 'react-router-dom'
-const base_url = "https://images.tmdb.org/t/p/original/";
+const base_url = "https://images.tmdb.org/t/p/w200/";
 
 
 function Row(props) {

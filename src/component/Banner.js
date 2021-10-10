@@ -23,16 +23,10 @@ function Banner() {
     function trunate(str, n) {
         return str?.length > n ? str.substr(0, n - 1) + "..." : str;
     }
-    function mt(res) {
-        if (res.media_type === "movie")
-            return "/Movie/"
-        else
-            return "/Tvshow/"
-    }
     return (
         <header className="banner" style={{
             backgroundSize: "cover",
-            backgroundImage: `url("https://images.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+            backgroundImage: `url("https://images.tmdb.org/t/p/w1280/${movie?.backdrop_path}")`,
             backgroundPosition: "center center",
         }}>
             <div className="banner_cont" >
@@ -40,7 +34,7 @@ function Banner() {
                     {movie?.title || movie?.name || movie?.original_name}
                 </h1>
                 <div className="banner_buttons">
-                    <Link to="/">
+                    <Link to={`/Movie/${movie?.id}`}>
                         <button type="button" className="btn btn-dark banner_button">Visit</button>
                     </Link>
                 </div>

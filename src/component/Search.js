@@ -8,7 +8,7 @@ function Search({ match }) {
     const keyword = aa.replace(/[ ,]+/g, "%20");
     const url = `search/multi?api_key=17c423324c9d705b0a6f986149de595d&language=en-US&query=${keyword}&page=1&include_adult=false`;
     const [search, setSearch] = useState([]);
-    const base_url = "https://images.tmdb.org/t/p/original/";
+    const base_url = "https://images.tmdb.org/t/p/w300/";
     useEffect(() => {
         async function fetchData() {
             const req = await axios.get(url);

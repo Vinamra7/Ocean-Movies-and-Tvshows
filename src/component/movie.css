@@ -16,6 +16,11 @@
     transition: transform 450ms;
     padding-top: 4.65%;
 }
+@media screen and (max-width:500px){
+    .coloo{
+        padding-top: 12%;
+    }
+}
 
 .row_posterss{
     display: flex;  

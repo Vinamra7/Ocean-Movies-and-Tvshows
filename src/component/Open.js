@@ -5,7 +5,7 @@ import YouTube from 'react-youtube';
 
 function Open({ match }) {
     const url1 = `movie/${match.params.id}?api_key=17c423324c9d705b0a6f986149de595d&language=en-US`;
-    const base_url = "https://images.tmdb.org/t/p/original/";
+    const base_url = "https://images.tmdb.org/t/p/w200/";
     const m1 = `movie/${match.params.id}/videos?api_key=17c423324c9d705b0a6f986149de595d&language=en-US`;
     const [movie, setMovie] = useState({});
     const [trailer, setTrailer] = useState("");
@@ -47,7 +47,7 @@ function Open({ match }) {
         <div>
             <header className="poster_back" style={{
                 backgroundSize: "cover",
-                backgroundImage: `url("https://images.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+                backgroundImage: `url("https://images.tmdb.org/t/p/w1280/${movie?.backdrop_path}")`,
                 backgroundPosition: "center",
             }}>
                 <img
